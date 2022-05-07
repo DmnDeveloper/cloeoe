@@ -8,6 +8,7 @@ const LogoStyled = styled.div`
     justify-content: center;
     width: 100%;
     height: 50px;
+    padding: 10px;
 `;
 
 const Logo = () => {
