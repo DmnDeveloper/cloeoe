@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import MenuBar from './MenuBar';
-import WrapperInput from './WrapperInput';
+import WrapperInput from './WrapperInput'; 
 
 const NavStyled = styled.div`
     display: flex;
@@ -13,7 +12,7 @@ const Navbar = () => {
   return (
     <NavStyled>
         <WrapperInput />
-        <MenuBar />
+        
     </NavStyled>
   )
 }
