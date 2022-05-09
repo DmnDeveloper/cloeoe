@@ -8,7 +8,7 @@ import Navbar from './Navbar'
 
 const HeaderStyled = styled.header`
     width: 100%;
-    height: 100px;
+    height: 150px;
 `;
 
 const Header = () => {

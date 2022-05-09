@@ -9,12 +9,13 @@ const LogoStyled = styled.div`
     width: 100%;
     height: 50px;
     padding: 10px;
+    margin-bottom: 15px;
 `;
 
 const Logo = () => {
   return (
     <LogoStyled>
-        <img src={logo} width='100px' height='40px' alt=''></img>
+        <img src={logo} width='120px' height='40px' alt=''></img>
     </LogoStyled>
   )
 }

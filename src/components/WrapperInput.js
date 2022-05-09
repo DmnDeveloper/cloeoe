@@ -5,15 +5,16 @@ import SearchInput from './SearchInput'
 const WrapperInputStyled = styled.div`
     display: flex;
     align-items: center;
-    height: 35px;
-    border-radius: 10px;
+    height: 40px;
+    border-radius: 20px;
     background-color: #e4e4e4;
-
+    margin-left: 10px;
+    padding-left: 10px;
 `;
 const WrapperInput = () => {
-  return (
+  return ( 
     <WrapperInputStyled>
-      |<SearchInput />
+       <SearchInput/>
     </WrapperInputStyled>
   )
 }
