@@ -20,6 +20,8 @@ const LiStyled = styled.li`
 `;
 const Atext = styled.a`
     cursor: pointer;
+    font-family: 'Roboto Flex', sans-serif;
+    letter-spacing: 1px;
 `;
 
 const Menu = () => {

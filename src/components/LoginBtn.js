@@ -14,6 +14,7 @@ const BtnLogin = styled.button`
     border: none;
     margin-right: 20px;
     cursor: pointer;
+
 `;
 const LoginBtn = () => {
     const [estadoModal, cambiarEstadoModal] = useState(false)

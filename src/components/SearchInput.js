@@ -21,7 +21,7 @@ const SearchInput = () => {
   
     <Wrapper> 
     <FaSearch />
-    <InputStyled type='text' placeholder=' ' ></InputStyled>
+    <InputStyled type='text' placeholder=' Buscar...' ></InputStyled>
    
     </Wrapper>
 

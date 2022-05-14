@@ -53,12 +53,13 @@ const Btn = styled.button`
     margin-bottom: 20px;
     border: none;
     border-radius: 50%;
-    background: #e4e4e4;
+    background: none;
     cursor: pointer;
-    
+    border: 1px solid black;
     &:hover{
-      background: none;
-      transition: 1s;
+      background: #e4e4e4;
+      transition: 2s;
+      border: none;
     }
 `;
 
