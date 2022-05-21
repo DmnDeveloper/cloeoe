@@ -1,7 +1,8 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom';
 import styled from 'styled-components'
 
-const MenuStyled = styled.div`
+const MenuStyled = styled.nav`
     display: flex;
     align-items: center;
     width: 600px;
@@ -18,30 +19,28 @@ const LiStyled = styled.li`
     margin-left: 50px;
     padding: 5px;
 `;
-const Atext = styled.a`
-    cursor: pointer;
-    font-family: 'Roboto Flex', sans-serif;
-    letter-spacing: 1px;
-`;
+
 
 const Menu = () => {
+    
+    
   return (
     <MenuStyled>
         <UlStyled>
             <LiStyled>
-                <Atext>Beneficios</Atext>
+                <NavLink className='navStyle' exact='true' to='/' text-decoration='none' >Home</NavLink>
             </LiStyled>
             <LiStyled>
-                <Atext>Lorem</Atext>
+                  <NavLink className='navStyle' exact='true' to='/Beneficios'>Beneficios</NavLink>
             </LiStyled>
             <LiStyled>
-                <Atext>Lorem</Atext>
+                   <NavLink className='navStyle' exact='true' to='/Lorem1' >Home</NavLink>
             </LiStyled>
             <LiStyled>
-                <Atext>Lorem</Atext>
+                 <NavLink className='navStyle' exact='true' to='/Lorem2'>Home</NavLink>
             </LiStyled>
             <LiStyled>
-                <Atext>Contacto</Atext>
+                 <NavLink className='navStyle' exact='true' to='/Lorem3'>Contacto</NavLink>
             </LiStyled>
         </UlStyled>
     </MenuStyled>

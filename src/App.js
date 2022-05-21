@@ -1,23 +1,27 @@
+import { BrowserRouter, Route, Routes} from 'react-router-dom';
+
+
+import Home from './pages/Home';
+import Footer from './components/Footer'
+import Header from './components/Header'
+import Beneficios from './pages/Beneficios';
+
 import './style/app.css'
-import Header from './components/Header';
-import Modal from './components/Modal';
-import CarouselContainer from './components/CarouselContainer';
-//import SlideCarouel from './components/SlideCarousel'
-import ContainerMain from './components/ContainerMain'
-import Footer from './components/Footer';
-
-
 
 
 function App() {
   return (
-    <div className="App">
+    <BrowserRouter> 
       <Header />
-      <CarouselContainer />
-      <Modal />
-      <ContainerMain />
+      <Routes>
+      <Route  exact path='/'  element={<Home />} />
+      </Routes>
+      <Routes>
+        <Route exact path='/Beneficios' element={<Beneficios />} />
+      </Routes>
+
       <Footer />
-    </div>
+    </BrowserRouter>
   );
 }
 

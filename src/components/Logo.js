@@ -9,7 +9,6 @@ const LogoStyled = styled.div`
     width: 100%;
     height: 50px;
     padding: 10px;
-    margin-bottom: 15px;
 `;
 
 const Logo = () => {
