@@ -7,12 +7,10 @@ const Wrapper = styled.div`
 
 `;
 const InputStyled = styled.input`
-    width: 225px;
+    width: 250px;
     height: 100%;
     background-color: #e4e4e4;
     border: none;
-    margin-right: 15px;
-    margin-left: 10px;
     outline: none;
 `;
 

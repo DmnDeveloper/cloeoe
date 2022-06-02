@@ -1,0 +1,117 @@
+/* acoomodar de mayor a menor*/
+@media (max-width: 768px){
+    .navClass{
+        flex-direction: column;
+        height: 150px;
+        justify-content: center;
+    }
+}
+@media (max-width: 420px){
+    .navClass{
+        flex-direction: column;
+        height: 150px;
+        justify-content: center;
+    }
+    .carouselClass{
+        margin-top: 20px;
+        height: 200px;
+    }
+    .imgCarouselClass{
+        height: 200px;
+    }
+    .headerClass{
+        height: 150px;
+    }
+    .inputClass{
+        width: 325px;
+        margin-top: 10px;
+
+    }
+    .mySwiper{
+        height: 250px;
+        
+    }
+    .carouselClass{
+        height: 150px;
+        margin-top: 70px;
+    }
+    
+    .imgClass{
+        width: 50px;
+        height: 120px;
+    }
+    .swiper-slide{
+        width: 50px;
+        padding-top: 10px;
+        height: 80px;
+    }
+    .swiper-wrapper{
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .modalClass{
+        width: 295px;
+    }
+    .btnCloseClass{
+        margin-right: 15px;
+    }
+    .logoClassModal{
+        padding-left: 20px;
+    }
+}
+@media (max-width: 320px) {
+    .navClass{
+        flex-direction: column;
+        height: 150px;
+        justify-content: center;
+    }
+    .carouselClass{
+        margin-top: 20px;
+        height: 200px;
+    }
+    .imgCarouselClass{
+        height: 200px;
+    }
+    .headerClass{
+        height: 200px;
+    }
+    .inputClass{
+        width: 300px;
+        margin-top: 10px;
+
+    }
+    .mySwiper{
+        height: 250px;
+        
+    }
+    .carouselClass{
+        height: 150px;
+    }
+    
+    .imgClass{
+        width: 50px;
+        height: 120px;
+    }
+    .swiper-slide{
+        width: 50px;
+        height: 100px;
+    }
+    .swiper-wrapper{
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .modalClass{
+        width: 295px;
+    }
+    .btnCloseClass{
+        margin-right: 15px;
+    }
+    .logoClassModal{
+        padding-left: 20px;
+    }
+}

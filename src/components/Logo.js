@@ -7,14 +7,15 @@ const LogoStyled = styled.div`
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 50px;
-    padding: 10px;
+    height: 50px; 
+    margin-top: 20px;
+    margin-bottom: 10px;
 `;
 
 const Logo = () => {
   return (
-    <LogoStyled>
-        <img src={logo} width='120px' height='40px' alt=''></img>
+    <LogoStyled className='LogoStyledClass'>
+        <img src={logo} className='ImgClass' width='120px' height='40px' alt=''></img>
     </LogoStyled>
   )
 }

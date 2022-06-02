@@ -61,14 +61,15 @@ const Modal = ({children, estado, cambiarEstado}) => {
     <>
         {estado &&
             <OverLay>
-                 <ContainerModal>
+                 <ContainerModal className='modalClass'>
                      <EncabezadoModal>
-                           <LogoWrapper>
+                           <LogoWrapper className='logoClassModal'>
                            <Logo width='25px' height='25px'/>
                            </LogoWrapper>
                     </EncabezadoModal>
 
                      <BtnClose
+                        className='btnCloseClass'
                         onClick={() => cambiarEstado(false)}
                      >x</BtnClose>
 

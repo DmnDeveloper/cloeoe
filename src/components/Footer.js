@@ -8,13 +8,14 @@ const FooterWraper = styled.div`
     width: 100%;
     height: 300px;
     background-color: #e4e4e4;
+    
 `;
 const WrapperFooter = styled.div`
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    width: 250px;
+    width: 80px;
     height: 100%;
+    justify-content: space-around;
 `;
 const PrincipalWord = styled.p`
     font-weight: bold;
@@ -28,42 +29,42 @@ const SecondWord = styled.a`
 `;
 const WrapperContac = styled.div`
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
-    height: 35px;
-    margin: auto;
+    width: 80px;
+    height: 250px;
 `;
 
 const Footer = () => {
   return (
-    <FooterWraper>
-      <WrapperFooter>
+    <FooterWraper className='footerClass'>
+      <WrapperFooter >
         <PrincipalWord>Compañia</PrincipalWord>
-        <SecondWord href='#'>- Nosotros</SecondWord>
-        <SecondWord href='#'>- Cloe Careers</SecondWord>
-        <SecondWord href='#'>- Ventas Corporativas</SecondWord>
-        <SecondWord href='#'>- Cloe World</SecondWord>
-        <SecondWord href='#'>- Cloe Partnets</SecondWord>
+        <SecondWord href='#'>Nosotros</SecondWord>
+        <SecondWord href='#'>Cloe Careers</SecondWord>
+        <SecondWord href='#'>Ventas Corporativas</SecondWord>
+        <SecondWord href='#'>Cloe World</SecondWord>
+        <SecondWord href='#'>Cloe Partnets</SecondWord>
       </WrapperFooter>
 
       <WrapperFooter>
       <PrincipalWord>Servicio al Cliente</PrincipalWord>
-        <SecondWord href='#'>- Mi Cuenta</SecondWord>
-        <SecondWord href='#'>- Wishlist</SecondWord>
-        <SecondWord href='#'>- Preguntas Frecuentes</SecondWord>
-        <SecondWord href='#'>- Contactanos</SecondWord>
-        <SecondWord href='#'>- Rastreo</SecondWord>
-        <SecondWord href='#'>- Facturas</SecondWord>
+        <SecondWord href='#'>Mi Cuenta</SecondWord>
+        <SecondWord href='#'>Wishlist</SecondWord>
+        <SecondWord href='#'>Preguntas Frecuentes</SecondWord>
+        <SecondWord href='#'>Contactanos</SecondWord>
+        <SecondWord href='#'>Rastreo</SecondWord>
+        <SecondWord href='#'>Facturas</SecondWord>
       </WrapperFooter>
 
       <WrapperFooter>
       <PrincipalWord>Legal</PrincipalWord>
-      <SecondWord href='#'>- Garantias</SecondWord>
-      <SecondWord href='#'>- Devoluciones</SecondWord>
-      <SecondWord href='#'>- Terminos y Condiciones</SecondWord>
-      <SecondWord href='#'>- Aviso de Privacidad</SecondWord>
-      <SecondWord href='#'>- Certificaciones</SecondWord>
+      <SecondWord href='#'>Garantias</SecondWord>
+      <SecondWord href='#'>Devoluciones</SecondWord>
+      <SecondWord href='#'>Terminos y Condiciones</SecondWord>
+      <SecondWord href='#'>Aviso de Privacidad</SecondWord>
+      <SecondWord href='#'>Certificaciones</SecondWord>
       </WrapperFooter>
 
       <WrapperFooter>

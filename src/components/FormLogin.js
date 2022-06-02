@@ -76,8 +76,8 @@ const FormLogin = () => {
         <PasswordInput type='password' placeholder='Contraseña' />
       </WrapperPassword>
       
-      <Btn>
-        <BsFillHandIndexThumbFill size='25px' />
+      <Btn className='btnClass'>
+        <BsFillHandIndexThumbFill size='25px'  />
       </Btn>
     </FormStyled>
   )

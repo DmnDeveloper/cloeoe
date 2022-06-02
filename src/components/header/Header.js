@@ -1,19 +1,20 @@
 import React from 'react'
 import styled from 'styled-components';
 
-import Logo from './Logo'
-import Navbar from './Navbar'
+import Logo from '../Logo'
+import Navbar from './navbar/Navbar'
 
 
 
 const HeaderStyled = styled.header`
     width: 100%;
-    height: 150px;
+    max-height: 500px;
+    margin-bottom: 10px;
 `;
 
 const Header = () => {
   return (
-    <HeaderStyled>
+    <HeaderStyled className='headerClass'>
         <Logo></Logo>
         <Navbar></Navbar>
     </HeaderStyled>

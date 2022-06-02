@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
 import styled from 'styled-components'
 import {FaUserCircle} from 'react-icons/fa'
-import Modal from './Modal';
-import FormLogin from './FormLogin';
+import Modal from '../../Modal';
+import FormLogin from '../../FormLogin';
 
 const BtnLogin = styled.button`
     display: flex;
@@ -12,7 +12,6 @@ const BtnLogin = styled.button`
     height: 40px;
     width: 150px;
     border: none;
-    margin-right: 20px;
     cursor: pointer;
 
 `;

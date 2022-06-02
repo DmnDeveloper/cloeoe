@@ -8,12 +8,11 @@ const WrapperInputStyled = styled.div`
     height: 40px;
     border-radius: 20px;
     background-color: #e4e4e4;
-    margin-left: 10px;
     padding-left: 10px;
 `;
 const WrapperInput = () => {
   return ( 
-    <WrapperInputStyled>
+    <WrapperInputStyled className='inputClass'>
        <SearchInput/>
     </WrapperInputStyled>
   )

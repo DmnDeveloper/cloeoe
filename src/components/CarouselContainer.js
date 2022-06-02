@@ -9,22 +9,23 @@ import four from '../assets/carousel4.jpg'
 const CarouselContainer = () => {
   return (
   <Carousel
+   className='carouselClass' 
    autoPlay={true}
    infiniteLoop={true}
    interval={3000}
    showThumbs={false}
    showStatus={false}>
     <div>
-        <img src={one} alt='' width='' height='350px' />
+        <img className='imgCarouselClass' src={one} alt='' width='' height='350px' />
     </div>
     <div>
-        <img src={two} alt='' width='' height='350px' />
+        <img className='imgCarouselClass' src={two} alt='' width='' height='350px' />
     </div>
     <div>
-        <img src={three} alt='' width='' height='350px' />
+        <img className='imgCarouselClass' src={three} alt='' width='' height='350px' />
     </div>
     <div>
-        <img src={four} alt='' width='' height='350px' />
+        <img className='imgCarouselClass' src={four} alt='' width='' height='350px' />
     </div>
   </Carousel>
   )

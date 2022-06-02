@@ -1,45 +1,29 @@
 import React from 'react'
 import styled from 'styled-components'
-import LoginBtn from './LoginBtn';
-import SlideCarousel from './SlideCarousel'
+import HomePhotos from './HomePhotos';
 
 
 const WrapperDiv = styled.div`
     width: 100%;
-    height: 500px;
-    margin-top: 60px;
-    margin-bottom: 20px;
+    height: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 `;
 const TextLogin = styled.p`
-    font-family: 'Roboto Flex', sans-serif;
+    font-size: 30px;
     letter-spacing: 2px;
     text-align: center;
-    margin-right: 10px;
+    color: black;
+    margin-bottom: 15px;
 `;
-const WrapperCarousel = styled.div`
-    width: 100%;
-    height: 65%;
-`;
-const WrapperLogin = styled.div`
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 35%;
-`;
+
 
 
 const ContainerMain = () => {
   return (
-    <WrapperDiv>
-      <WrapperCarousel>
-        <SlideCarousel />
-      </WrapperCarousel> 
-
-      <WrapperLogin>
-        <TextLogin>Para conocer todos tus beneficios disponibles con nosotros:  </TextLogin>
-        <LoginBtn />
-      </WrapperLogin>     
+    <WrapperDiv className='swiperClass'>
+        <HomePhotos />
+        <TextLogin>Para obtener todos tus beneficios, Inicia sesion.</TextLogin>
     </WrapperDiv>
   )
 }

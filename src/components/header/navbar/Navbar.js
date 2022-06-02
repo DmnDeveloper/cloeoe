@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import Menu from './Menu';
+import Menu from '../Menu';
 import WrapperInput from './WrapperInput'; 
 import LoginBtn from './LoginBtn';
 
@@ -9,11 +9,11 @@ const NavStyled = styled.div`
     align-items: center;
     justify-content: space-between;
     width: 100%; 
-    height: 50px;
+    max-height: 200px;
 `;
 const Navbar = () => {
   return (
-    <NavStyled>
+    <NavStyled className='navClass'>
         <WrapperInput />
         <Menu />
         <LoginBtn />  
